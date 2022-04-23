@@ -1,0 +1,21 @@
+.cover {
+  background-image: url(../../image/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto 92px;
+}
+.cover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .3);
+}
