@@ -2,6 +2,7 @@
 @import url(../vendor/fonts/inter/inter.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
 @import url(../blocks/lang-box/lang-box.css);
 @import url(../blocks/lang-link/lang-link.css);
 @import url(../blocks/lang-link/_en/lang-link_en.css);
@@ -26,6 +27,7 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__img/place__img.css);
+@import url(../blocks/place/__text-box/place__text-box.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
