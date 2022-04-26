@@ -7,4 +7,4 @@
 На практике я закрепил навык адаптива и резиновой верстки, а так же работы с макетами в Figma.
 
 **Git**
-[ссылка на проект](https://github.com/Destol94/russian-travel)
+[ссылка на проект](https://destol94.github.io/russian-travel/)

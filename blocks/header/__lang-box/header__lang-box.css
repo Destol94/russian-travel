@@ -1,0 +1,13 @@
+.header__lang-box {
+  display: flex;
+  gap: 18px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+@media screen and (max-width: 700px) {
+  .header__lang-box {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

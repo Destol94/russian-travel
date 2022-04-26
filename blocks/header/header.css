@@ -5,7 +5,7 @@
   margin: 0 auto 56px;
   padding-top: 28px;
   align-items: center;
-  width: 90%;
+  width: calc(100% - 2*48px);
 }
 @media screen and (max-width: 1200px) {
   .header {
@@ -14,12 +14,13 @@
 }
 @media screen and (max-width: 1000px) {
   .header {
-    width: 95%;
+    /*margin: 0 24px 48px;*/
+    width: calc(100% - 2*24px);
   }
 }
 @media screen and (max-width: 700px) {
   .header {
     padding-top: 16px;
-    width: 90%;
+    width: calc(100% - 2*16px);
   }
 }

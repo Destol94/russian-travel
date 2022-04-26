@@ -7,13 +7,13 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
-  <div class="page">
+<body class="page">
+  <div class="content">
     <header class="header">
       <img src="./image/logo.svg" alt="логотип" class="logo">
-      <div class="lang-box">
-        <a href="#" class="lang-link link">Ru</a>
-        <a href="#" class="lang-link lang-link_underline_disabled link">En</a>
+      <div class="header__lang-box">
+        <a href="#" class="header__lang-link link">Ru</a>
+        <a href="#" class="header__lang-link header__lang-link_underline_disabled link">En</a>
       </div>
     </header>
 
@@ -48,22 +48,22 @@
       </section>
 
       <div class="photo-grid">
-        <img class="photo-grid__item" src="./image/poezd.jpg" alt="вид с окна поезда">
-        <img class="photo-grid__item" src="./image/gori.jpg" alt="горы">
-        <img class="photo-grid__item" src="./image/pole.jpg" alt="поле и волк">
-        <img class="photo-grid__item" src="./image/les.jpg" alt="лес">
-        <img class="photo-grid__item" src="./image/led.jpg" alt="лёд">
-        <img class="photo-grid__item" src="./image/more.jpg" alt="берег">
-        <img class="photo-grid__item" src="./image/gori2.jpg" alt="горы">
-        <img class="photo-grid__item" src="./image/otboiniki.jpg" alt="отбойники">
-        <img class="photo-grid__item" src="./image/gori3.jpg" alt="горы">
-        <img class="photo-grid__item" src="./image/gori4.jpg" alt="горы">
-        <img class="photo-grid__item" src="./image/gori5.jpg" alt="горы">
-        <img class="photo-grid__item" src="./image/gori6.jpg" alt="горы">
+        <img class="photo-grid__item" src="./image/poezd.jpg" alt="вид с окна поезда на Байкал.">
+        <img class="photo-grid__item" src="./image/gori.jpg" alt="Вид с высоты на заснеженные горы и облака.">
+        <img class="photo-grid__item" src="./image/pole.jpg" alt="Поле, рассвет, волк на стоге сена.">
+        <img class="photo-grid__item" src="./image/les.jpg" alt="Отвесная гора на которой густой лес в тумане.">
+        <img class="photo-grid__item" src="./image/led.jpg" alt="Прозрачный, толстый лёд, на котором стоит машина.">
+        <img class="photo-grid__item" src="./image/more.jpg" alt="Море, рыжий песок и на фоне горы.">
+        <img class="photo-grid__item" src="./image/gori2.jpg" alt="Высокие горы.">
+        <img class="photo-grid__item" src="./image/otboiniki.jpg" alt="Бетонные отбойники и на переднем плане знак пешеходного перехода.">
+        <img class="photo-grid__item" src="./image/gori3.jpg" alt="Много сопок песочного цвета покрытых туманом.">
+        <img class="photo-grid__item" src="./image/gori4.jpg" alt="Рассвет, на переднем плане зелёное поле, на заднем гора.">
+        <img class="photo-grid__item" src="./image/gori5.jpg" alt="Крутая скала над берегом водоёма.">
+        <img class="photo-grid__item" src="./image/gori6.jpg" alt="Зелёные горы в тумане.">
       </div>
 
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
            <p class="place__url-heading">URL</p>
@@ -83,8 +83,8 @@
               стального, прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
            <p class="place__url-heading">URL</p>
@@ -104,8 +104,8 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
            <p class="place__url-heading">URL</p>
@@ -124,8 +124,8 @@
               знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
            <p class="place__url-heading">URL</p>
@@ -144,8 +144,8 @@
               197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
            <p class="place__url-heading">URL</p>
@@ -163,30 +163,30 @@
               помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       
       <div class="cover">
         <a class="cover__link link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие 
+            от столицы до&nbsp;Байкала на&nbsp;электричках.
+          </p>
         </a>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие 
-          от столицы до&nbsp;Байкала на&nbsp;электричках.
-        </p>
+        
       </div>
     </main>
     
     <footer class="footer">
-      <nav class="nav">
-        <a class="nav__item link" href="https://yandex.ru/maps">Карты</a>
-        <a class="nav__item link" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="nav__item link" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="nav__item link" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="nav__item link" href="https://travel.yandex.ru">Путешествия</a>
+      <nav class="footer__nav">
+        <a class="footer__link link" href="https://yandex.ru/maps">Карты</a>
+        <a class="footer__link link" href="https://yandex.ru/pogoda">Погода</a>
+        <a class="footer__link link" href="https://rasp.yandex.ru">Расписание</a>
+        <a class="footer__link link" href="https://calendar.yandex.ru">Календарь</a>
+        <a class="footer__link link" href="https://travel.yandex.ru">Путешествия</a>
       </nav>
-      <p class="footer__copyright">&copy; 2020. Denis Stekachev</p>
+      <p class="footer__copyright">&copy; 2022. Denis Stekachev</p>
     </footer>
   </div>
-  
 </body>
 </html>

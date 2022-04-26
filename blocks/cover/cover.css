@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 740px;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,33 +19,32 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(42, 44, 47, .3);
   transition: background-color 1s linear;
 }
 .cover:hover::after {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(42, 44, 47, .8);
 }
 
 @media screen and (max-width: 1200px) {
   .cover {
     margin-bottom: 88px;
-    height: 640px;
+    min-height: 640px;
   }
 }
 @media screen and (max-width: 1000px) {
   .cover {
-    margin-bottom: 88px;
-    height: 480px;
+    min-height: 480px;
   }
 }
 @media screen and (max-width: 700px) {
   .cover {
     margin-bottom: 64px;
-    height: 380px;
+    min-height: 380px;
   }
 }
 @media screen and (max-width: 380px) {
   .cover {
-    height: 200px;
+    min-height: 200px;
   }
 }
